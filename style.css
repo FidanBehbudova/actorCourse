@@ -269,7 +269,7 @@ body {
 .video-section {
     display: flex;
     justify-content: center;
-    padding: 150px 50px;
+    padding: 10px 50px;
 }
 
 .video-wrap {
@@ -437,7 +437,6 @@ body {
 
 .featuredmenu h1 {
     text-align: center;
-    font-family: 'Playfair Display', serif;
     color: #ffffff;
 }
 

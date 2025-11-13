@@ -40,7 +40,7 @@
                         <a class="nav-link active" aria-current="page" href="./about.html">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                        <a class="nav-link active" aria-current="page" href="index.html#contact">CONTACT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="./course.html">COURSE</a>
@@ -61,7 +61,102 @@
 
 
 
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #111;
+        }
 
+        .grid-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-auto-rows: 177px;
+            gap: 10px;
+            width: 100%;
+            margin-top: 5%;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: #111;
+            border-radius: 12px;
+        }
+
+        /* .b1,
+        .b5,
+        .b9,
+        .b13 {
+            background: #4a90e2;
+        }
+        
+
+        .b2,
+        .b6,
+        .b10,
+        .b14 {
+            background: #e67e22;
+        }
+
+        .b3,
+        .b7,
+        .b11,
+        .b15 {
+            background: #f1c40f;
+        }
+
+        .b4,
+        .b8,
+        .b12,
+        .b16 {
+            background: #27ae60;
+        } */
+
+        .b1 {
+            grid-row: span 2;
+        }
+
+        .b5 {
+            grid-row: span 2;
+        }
+
+        .b9 {
+            grid-row: span 2;
+        }
+    </style>
+
+
+    </head>
+
+    <body>
+        <div class="grid">
+            <div class="box b1" style="background-image: url(./images/gallery/1378649-2800x1867-desktop-hd-movie-set-background-image.jpg);background-size: cover;"></div>
+            <div class="box b2" style="background-image: url(./images/gallery/1378670-1920x1080-desktop-full-hd-movie-set-wallpaper-image.jpg);background-size: cover;"></div>
+            <div class="box b3" style="background-image: url(./images/gallery/1378724-3000x1836-desktop-hd-movie-set-wallpaper-image.jpg);background-size: cover;"></div>
+            <div class="box b4" style="background-image: url(./images/gallery/1378805-2560x1440-desktop-hd-movie-set-background-image.jpg);background-size: cover;"></div>
+            <div class="box b8" style="background-image: url(./images/gallery/1378807-2560x1994-desktop-hd-movie-set-wallpaper-image.jpg);background-size: cover;"></div>
+            <div class="box b5" style="background-image: url(./images/gallery/1378813-3400x1854-desktop-hd-movie-set-wallpaper-image.jpg);background-size: cover;"></div>
+            <div class="box b6" style="background-image: url(./images/gallery/1378825-2560x1961-desktop-hd-movie-set-background-photo.jpg);background-size: cover;"></div>
+            <div class="box b7" style="background-image: url(./images/gallery/g1.jpg);background-size: cover;"></div>
+            <div class="box b11" style="background-image: url(./images/gallery/g2.jpg);background-size: cover;"></div>
+            <div class="box b12" style="background-image: url(./images/gallery/g3.jpg);background-size: cover;"></div>
+            <div class="box b9" style="background-image: url(./images/gallery/g4.jpg);background-size: cover;"></div>
+            <div class="box b10" style="background-image: url(./images/gallery/g5.jpg);background-size: cover;"></div>
+            <div class="box b14" style="background-image: url(./images/gallery/g6.jpg);background-size: cover;"></div>
+            <div class="box b15" style="background-image: url(./images/gallery/g7.jpg);background-size: cover;"></div>
+            <div class="box b13" style="background-image: url(./images/gallery/g8.jpg);background-size: cover;"></div>
+            <div class="box b16" style="background-image: url(./images/gallery/g9.jpg);background-size: cover;"></div>
+        </div>
+    </body>
 
 
     <!------------------------ FOOTER START -->
